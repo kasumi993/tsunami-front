@@ -1,0 +1,68 @@
+@import "left-menu.scss";
+@import "right-section.scss";
+
+
+@font-face {
+  font-family: "Jaldi";
+  src: local("Jaldi"),
+  url('../assets/fonts/Jaldi-Regular.ttf') format("truetype");
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#app {
+  font-family: Jaldi, Helvetica, Arial, sans-serif;
+  color: #FFF;
+  width: 100%;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle-left {
+  position: absolute;
+  bottom: -80px;
+  left: -20px;
+  width: 20%;
+}
+
+.circle-right {
+  position: absolute;
+  bottom: -80px;
+  right: -150px;
+  width: 20%;
+}
+
+
+
+.btn {
+  background: rgba(0, 148, 255, 0.42);
+  border-radius: 10px;
+  width: 120px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn span {
+  margin-left: 7px;
+}
+
+.btn svg {
+  position: relative;
+  top: 1px;
+}

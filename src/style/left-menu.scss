@@ -1,0 +1,46 @@
+
+.left-menu {
+  width: 15%;
+  background-color: #010B15;
+  height: 100vh;
+
+}
+
+.logo {
+  padding-top: 80px;
+  text-align: center;
+}
+.logo img {
+  width: 70%;
+}
+
+.menu {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.menu-item {
+  margin-bottom: 25px;
+  width: 80%;
+  padding: 10px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.active, .menu-item:hover {
+  background-color: #BFBFBF1A;
+  border-radius: 5px;
+}
+
+.menu-item span {
+  margin-left: 8px;
+}
+
+.menu-item svg {
+  position: relative;
+}
