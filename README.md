@@ -4,6 +4,7 @@ Ce projet a été réalisé dans un but d'apprentissage. Il est developpé en vu
 Nous simulons ici une interface de scan de vulnérabilités basé sur l'outil open source Tsunami de google.
 
 ### Pour tester ce projet sans l'installer, vous pouvez visiter ce site : https://tsunami-front.netlify.app/
+Nous rappelons qu'il s'agit d'un prototype réalisé dans le but de simuler l'interface et l'echange de données back et front. 
 
 Nous vous invitons à consulter le rapport détaillé de la conception du site (khady_gueye_tsunami_interface_doc.docx) afin d'en savoir plus car ceci n'est qu'un prototype.
 
